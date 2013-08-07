@@ -61,8 +61,8 @@ import edu.umd.cloud9.collection.Indexable;
 
 public class ClueWarcRecord extends Indexable {
 
-	public static String WARC_VERSION = "WARC/0.18";
-	public static String WARC_VERSION_LINE = "WARC/0.18\n";
+	public static String WARC_VERSION = "WARC/1.0";
+	public static String WARC_VERSION_LINE = "WARC/1.0\n";
 	private static String NEWLINE = "\n";
 	private static byte MASK_THREE_BYTE_CHAR = (byte) (0xE0);
 	private static byte MASK_TWO_BYTE_CHAR = (byte) (0xC0);
